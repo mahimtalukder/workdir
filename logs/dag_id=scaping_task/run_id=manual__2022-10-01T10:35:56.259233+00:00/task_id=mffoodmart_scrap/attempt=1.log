@@ -1,0 +1,54 @@
+[2022-10-01T16:35:59.184+0600] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: scaping_task.mffoodmart_scrap manual__2022-10-01T10:35:56.259233+00:00 [queued]>
+[2022-10-01T16:35:59.188+0600] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: scaping_task.mffoodmart_scrap manual__2022-10-01T10:35:56.259233+00:00 [queued]>
+[2022-10-01T16:35:59.189+0600] {taskinstance.py:1368} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-01T16:35:59.189+0600] {taskinstance.py:1369} INFO - Starting attempt 1 of 1
+[2022-10-01T16:35:59.189+0600] {taskinstance.py:1370} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-01T16:35:59.208+0600] {taskinstance.py:1389} INFO - Executing <Task(PythonOperator): mffoodmart_scrap> on 2022-10-01 10:35:56.259233+00:00
+[2022-10-01T16:35:59.211+0600] {standard_task_runner.py:52} INFO - Started process 20650 to run task
+[2022-10-01T16:35:59.213+0600] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'scaping_task', 'mffoodmart_scrap', 'manual__2022-10-01T10:35:56.259233+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/mffoodmart_scraping.py', '--cfg-path', '/tmp/tmpys5ywlij', '--error-file', '/tmp/tmp1l3sy6oj']
+[2022-10-01T16:35:59.214+0600] {standard_task_runner.py:80} INFO - Job 12: Subtask mffoodmart_scrap
+[2022-10-01T16:35:59.276+0600] {task_command.py:371} INFO - Running <TaskInstance: scaping_task.mffoodmart_scrap manual__2022-10-01T10:35:56.259233+00:00 [running]> on host MahimPC.
+[2022-10-01T16:35:59.326+0600] {taskinstance.py:1581} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=scaping_task
+AIRFLOW_CTX_TASK_ID=mffoodmart_scrap
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-01T10:35:56.259233+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-10-01T10:35:56.259233+00:00
+[2022-10-01T16:37:56.117+0600] {process_utils.py:125} INFO - Sending Signals.SIGTERM to group 20650. PIDs of all processes in the group: [20660, 20671, 20672, 20683, 20686, 20687, 20689, 20710, 21457, 21514, 21542, 20702, 20650]
+[2022-10-01T16:37:56.118+0600] {process_utils.py:80} INFO - Sending the signal Signals.SIGTERM to group 20650
+[2022-10-01T16:37:56.118+0600] {taskinstance.py:1553} ERROR - Received SIGTERM. Terminating subprocesses.
+[2022-10-01T16:37:56.131+0600] {taskinstance.py:1902} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 12, in scrap_mffoodmart
+    scrap_mess = check_output(['npm','run', 'scrapMfffodmart'])
+  File "/usr/lib/python3.10/subprocess.py", line 420, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/lib/python3.10/subprocess.py", line 503, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/usr/lib/python3.10/subprocess.py", line 1136, in communicate
+    stdout = self.stdout.read()
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1555, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2022-10-01T16:37:56.140+0600] {taskinstance.py:1407} INFO - Marking task as FAILED. dag_id=scaping_task, task_id=mffoodmart_scrap, execution_date=20221001T103556, start_date=20221001T103559, end_date=20221001T103756
+[2022-10-01T16:37:56.166+0600] {standard_task_runner.py:92} ERROR - Failed to execute job 12 for task mffoodmart_scrap (Task received SIGTERM signal; 20650)
+[2022-10-01T16:37:56.172+0600] {process_utils.py:75} INFO - Process psutil.Process(pid=20672, status='terminated', started='16:35:58') (20672) terminated with exit code None
+[2022-10-01T16:37:56.172+0600] {process_utils.py:75} INFO - Process psutil.Process(pid=21542, status='terminated', started='16:37:54') (21542) terminated with exit code None
+[2022-10-01T16:37:56.172+0600] {process_utils.py:75} INFO - Process psutil.Process(pid=20686, status='terminated', started='16:35:58') (20686) terminated with exit code None
+[2022-10-01T16:37:56.172+0600] {process_utils.py:75} INFO - Process psutil.Process(pid=20660, status='terminated', started='16:35:58') (20660) terminated with exit code None
+[2022-10-01T16:37:56.173+0600] {process_utils.py:75} INFO - Process psutil.Process(pid=20671, status='terminated', started='16:35:58') (20671) terminated with exit code None
+[2022-10-01T16:37:56.173+0600] {process_utils.py:75} INFO - Process psutil.Process(pid=20687, status='terminated', started='16:35:58') (20687) terminated with exit code None
+[2022-10-01T16:37:56.173+0600] {process_utils.py:75} INFO - Process psutil.Process(pid=20710, status='terminated', started='16:35:58') (20710) terminated with exit code None
+[2022-10-01T16:37:56.173+0600] {process_utils.py:75} INFO - Process psutil.Process(pid=20683, status='terminated', started='16:35:58') (20683) terminated with exit code None
+[2022-10-01T16:37:56.173+0600] {process_utils.py:75} INFO - Process psutil.Process(pid=20689, status='terminated', started='16:35:58') (20689) terminated with exit code None
+[2022-10-01T16:37:56.173+0600] {process_utils.py:75} INFO - Process psutil.Process(pid=20650, status='terminated', exitcode=1, started='16:35:58') (20650) terminated with exit code 1
+[2022-10-01T16:37:56.174+0600] {process_utils.py:75} INFO - Process psutil.Process(pid=21514, status='terminated', started='16:37:53') (21514) terminated with exit code None
+[2022-10-01T16:37:56.174+0600] {process_utils.py:75} INFO - Process psutil.Process(pid=20702, status='terminated', started='16:35:58') (20702) terminated with exit code None
+[2022-10-01T16:37:56.174+0600] {process_utils.py:75} INFO - Process psutil.Process(pid=21457, status='terminated', started='16:37:23') (21457) terminated with exit code None

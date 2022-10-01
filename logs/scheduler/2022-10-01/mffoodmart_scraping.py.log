@@ -1,0 +1,1120 @@
+[2022-10-01T15:36:49.157+0600] {processor.py:153} INFO - Started process (PID=13399) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:36:49.158+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T15:36:49.158+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:36:49.158+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:36:49.165+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:36:49.271+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:36:49.271+0600] {manager.py:508} INFO - Created Permission View: can edit on DAG:scaping_task
+[2022-10-01T15:36:49.305+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:36:49.305+0600] {manager.py:508} INFO - Created Permission View: can delete on DAG:scaping_task
+[2022-10-01T15:36:49.339+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:36:49.339+0600] {manager.py:508} INFO - Created Permission View: can read on DAG:scaping_task
+[2022-10-01T15:36:49.339+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:36:49.339+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T15:36:49.344+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:36:49.344+0600] {dag.py:2448} INFO - Creating ORM DAG for scaping_task
+[2022-10-01T15:36:49.353+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:36:49.352+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T15:36:49.392+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.237 seconds
+[2022-10-01T15:37:25.567+0600] {processor.py:153} INFO - Started process (PID=13533) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:37:25.568+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T15:37:25.569+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:37:25.569+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:37:25.575+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:37:25.574+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 40, in <module>
+    python_callable=scrap
+NameError: name 'scrap' is not defined
+[2022-10-01T15:37:25.575+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:37:25.653+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.088 seconds
+[2022-10-01T15:38:04.716+0600] {processor.py:153} INFO - Started process (PID=13575) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:38:04.717+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T15:38:04.718+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:38:04.718+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:38:04.724+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:38:04.723+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 62, in <module>
+    python_callable=scrap
+NameError: name 'scrap' is not defined
+[2022-10-01T15:38:04.724+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:38:04.743+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.029 seconds
+[2022-10-01T15:38:39.563+0600] {processor.py:153} INFO - Started process (PID=13611) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:38:39.564+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T15:38:39.565+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:38:39.564+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:38:39.571+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:38:39.571+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 64, in <module>
+    python_callable=scrap
+NameError: name 'scrap' is not defined
+[2022-10-01T15:38:39.572+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:38:39.591+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.029 seconds
+[2022-10-01T15:39:14.408+0600] {processor.py:153} INFO - Started process (PID=13649) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:39:14.409+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T15:39:14.409+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:39:14.409+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:39:14.416+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:39:14.416+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 64, in <module>
+    python_callable=scrap
+NameError: name 'scrap' is not defined
+[2022-10-01T15:39:14.416+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:39:14.435+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.028 seconds
+[2022-10-01T15:39:48.246+0600] {processor.py:153} INFO - Started process (PID=13686) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:39:48.247+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T15:39:48.247+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:39:48.247+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:39:48.253+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:39:48.253+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 64, in <module>
+    python_callable=scrap
+NameError: name 'scrap' is not defined
+[2022-10-01T15:39:48.253+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:39:48.271+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.026 seconds
+[2022-10-01T15:40:23.553+0600] {processor.py:153} INFO - Started process (PID=13729) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:40:23.554+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T15:40:23.555+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:40:23.555+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:40:23.561+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:40:23.561+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 64, in <module>
+    python_callable=scrap
+NameError: name 'scrap' is not defined
+[2022-10-01T15:40:23.561+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:40:23.579+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.027 seconds
+[2022-10-01T15:40:58.327+0600] {processor.py:153} INFO - Started process (PID=13769) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:40:58.328+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T15:40:58.329+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:40:58.329+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:40:58.335+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:40:58.335+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 64, in <module>
+    python_callable=scrap
+NameError: name 'scrap' is not defined
+[2022-10-01T15:40:58.335+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:40:58.353+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.028 seconds
+[2022-10-01T15:41:33.140+0600] {processor.py:153} INFO - Started process (PID=13820) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:41:33.141+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T15:41:33.142+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:41:33.142+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:41:33.149+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:41:33.148+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 82, in <module>
+    python_callable=upload_product_categories_dims
+NameError: name 'upload_product_categories_dims' is not defined
+[2022-10-01T15:41:33.149+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:41:33.169+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.031 seconds
+[2022-10-01T15:42:07.366+0600] {processor.py:153} INFO - Started process (PID=13870) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:42:07.367+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T15:42:07.367+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:42:07.367+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:42:07.370+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:42:07.369+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 90
+    mffoodmart_scrap = PythonOperator(
+IndentationError: unexpected indent
+[2022-10-01T15:42:07.370+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:42:07.388+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.024 seconds
+[2022-10-01T15:42:43.346+0600] {processor.py:153} INFO - Started process (PID=13906) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:42:43.348+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T15:42:43.348+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:42:43.348+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:42:43.350+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:42:43.349+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 91
+    mffoodmart_scrap = PythonOperator(
+IndentationError: unexpected indent
+[2022-10-01T15:42:43.350+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:42:43.368+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.023 seconds
+[2022-10-01T15:43:17.066+0600] {processor.py:153} INFO - Started process (PID=13942) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:43:17.067+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T15:43:17.068+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:43:17.068+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:43:17.079+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:43:17.075+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 92, in <module>
+    mffoodmart_scrap = PythonOperator(
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/utils/task_group.py", line 210, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'mffoodmart_scrap' has already been added to the DAG
+[2022-10-01T15:43:17.080+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:43:17.103+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.038 seconds
+[2022-10-01T15:43:51.277+0600] {processor.py:153} INFO - Started process (PID=13978) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:43:51.278+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T15:43:51.279+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:43:51.279+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:43:51.288+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:43:51.287+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 104, in <module>
+    mffoodmart_product_dim_upgrade = PythonOperator(
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/utils/task_group.py", line 210, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'mffoodmart_product_dim_upgrade' has already been added to the DAG
+[2022-10-01T15:43:51.289+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:43:51.310+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.034 seconds
+[2022-10-01T15:44:26.656+0600] {processor.py:153} INFO - Started process (PID=14014) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:44:26.657+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T15:44:26.658+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:44:26.658+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:44:26.667+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:44:26.692+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:44:26.692+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T15:44:26.701+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:44:26.701+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T15:44:26.732+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.077 seconds
+[2022-10-01T15:45:02.339+0600] {processor.py:153} INFO - Started process (PID=14050) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:45:02.341+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T15:45:02.341+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:45:02.341+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:45:02.343+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:45:02.342+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 121
+    [mffoodmart_scrap >> [mffoodmart_category_dim_upgrade, mffoodmart_product_dim_upgrade] >> mffoodmart_product_categories_dim_upgrade >> mffoodmart_fact_upload
+    ^
+SyntaxError: '[' was never closed
+[2022-10-01T15:45:02.343+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:45:02.361+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.023 seconds
+[2022-10-01T15:45:36.043+0600] {processor.py:153} INFO - Started process (PID=14086) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:45:36.044+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T15:45:36.045+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:45:36.045+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:45:36.052+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:45:36.051+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 121, in <module>
+    [mffoodmart_scrap, turkishfoodmart_scrap] >> [mffoodmart_category_dim_upgrade, mffoodmart_product_dim_upgrade] >> mffoodmart_product_categories_dim_upgrade >> mffoodmart_fact_upload
+TypeError: unsupported operand type(s) for >>: 'list' and 'list'
+[2022-10-01T15:45:36.052+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:45:36.070+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.028 seconds
+[2022-10-01T15:46:10.098+0600] {processor.py:153} INFO - Started process (PID=14404) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:46:10.100+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T15:46:10.100+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:46:10.100+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:46:10.102+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:46:10.102+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 121
+    [mffoodmart_scrap, turkishfoodmart_scrap] >> [mffoodmart_category_dim_upgrade, mffoodmart_product_dim_upgrade] >> mffoodmart_product_categories_dim_upgrade >> mffoodmart_fact_upload >> 
+                                                                                                                                                                                             ^
+SyntaxError: invalid syntax
+[2022-10-01T15:46:10.102+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:46:10.120+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.024 seconds
+[2022-10-01T15:46:46.110+0600] {processor.py:153} INFO - Started process (PID=14467) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:46:46.112+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T15:46:46.112+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:46:46.112+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:46:46.120+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:46:46.120+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 121, in <module>
+    [mffoodmart_scrap, turkishfoodmart_scrap] >> [mffoodmart_category_dim_upgrade, mffoodmart_product_dim_upgrade] >> mffoodmart_product_categories_dim_upgrade >> mffoodmart_fact_upload >> [turkishfoodmart_category_dim_upgrade, turkishfoodmart_product_dim_upgrade]
+TypeError: unsupported operand type(s) for >>: 'list' and 'list'
+[2022-10-01T15:46:46.121+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:46:46.140+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.032 seconds
+[2022-10-01T15:47:19.842+0600] {processor.py:153} INFO - Started process (PID=14503) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:47:19.843+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T15:47:19.844+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:47:19.843+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:47:19.851+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:47:19.851+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 121, in <module>
+    [mffoodmart_scrap, turkishfoodmart_scrap] >> [mffoodmart_category_dim_upgrade, mffoodmart_product_dim_upgrade] >> mffoodmart_product_categories_dim_upgrade >> mffoodmart_fact_upload >> [turkishfoodmart_category_dim_upgrade, turkishfoodmart_product_dim_upgrade] >> turkishfoodmart_product_categories_dim_upgrade >> turkishfoodmart_fact_upload
+TypeError: unsupported operand type(s) for >>: 'list' and 'list'
+[2022-10-01T15:47:19.851+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:47:19.869+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.029 seconds
+[2022-10-01T15:47:55.721+0600] {processor.py:153} INFO - Started process (PID=14647) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:47:55.722+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T15:47:55.722+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:47:55.722+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:47:55.728+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:47:55.728+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 121, in <module>
+    [mffoodmart_scrap, turkishfoodmart_scrap] >> [mffoodmart_category_dim_upgrade, mffoodmart_product_dim_upgrade] >> mffoodmart_product_categories_dim_upgrade >> mffoodmart_fact_upload >> [turkishfoodmart_category_dim_upgrade, turkishfoodmart_product_dim_upgrade] >> turkishfoodmart_product_categories_dim_upgrade >> turkishfoodmart_fact_upload
+TypeError: unsupported operand type(s) for >>: 'list' and 'list'
+[2022-10-01T15:47:55.729+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:47:55.746+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.027 seconds
+[2022-10-01T15:48:30.641+0600] {processor.py:153} INFO - Started process (PID=14683) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:48:30.642+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T15:48:30.642+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:48:30.642+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:48:30.648+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:48:30.648+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 121, in <module>
+    [mffoodmart_scrap, turkishfoodmart_scrap] >> [mffoodmart_category_dim_upgrade, mffoodmart_product_dim_upgrade] >> mffoodmart_product_categories_dim_upgrade >> mffoodmart_fact_upload >> [turkishfoodmart_category_dim_upgrade, turkishfoodmart_product_dim_upgrade] >> turkishfoodmart_product_categories_dim_upgrade >> turkishfoodmart_fact_upload
+TypeError: unsupported operand type(s) for >>: 'list' and 'list'
+[2022-10-01T15:48:30.648+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:48:30.666+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.026 seconds
+[2022-10-01T15:49:03.713+0600] {processor.py:153} INFO - Started process (PID=14719) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:49:03.714+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T15:49:03.715+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:49:03.714+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:49:03.721+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:49:03.720+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 121, in <module>
+    [mffoodmart_scrap, turkishfoodmart_scrap] >> [mffoodmart_category_dim_upgrade, mffoodmart_product_dim_upgrade] >> mffoodmart_product_categories_dim_upgrade >> mffoodmart_fact_upload >> [turkishfoodmart_category_dim_upgrade, turkishfoodmart_product_dim_upgrade] >> turkishfoodmart_product_categories_dim_upgrade >> turkishfoodmart_fact_upload
+TypeError: unsupported operand type(s) for >>: 'list' and 'list'
+[2022-10-01T15:49:03.721+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:49:03.739+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.027 seconds
+[2022-10-01T15:50:44.790+0600] {processor.py:153} INFO - Started process (PID=14991) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:50:44.791+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T15:50:44.791+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:50:44.791+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:50:44.799+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:50:44.799+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 121, in <module>
+    [mffoodmart_scrap, turkishfoodmart_scrap] >> [mffoodmart_category_dim_upgrade, mffoodmart_product_dim_upgrade] >> mffoodmart_product_categories_dim_upgrade >> mffoodmart_fact_upload >> [turkishfoodmart_category_dim_upgrade, turkishfoodmart_product_dim_upgrade] >> turkishfoodmart_product_categories_dim_upgrade >> turkishfoodmart_fact_upload
+TypeError: unsupported operand type(s) for >>: 'list' and 'list'
+[2022-10-01T15:50:44.800+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:50:44.824+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.036 seconds
+[2022-10-01T15:51:17.730+0600] {processor.py:153} INFO - Started process (PID=15060) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:51:17.732+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T15:51:17.732+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:51:17.732+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:51:17.742+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:51:17.741+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 121, in <module>
+    [mffoodmart_scrap, turkishfoodmart_scrap] >> [mffoodmart_category_dim_upgrade, mffoodmart_product_dim_upgrade] >> mffoodmart_product_categories_dim_upgrade >> mffoodmart_fact_upload >> [turkishfoodmart_category_dim_upgrade, turkishfoodmart_product_dim_upgrade] >> turkishfoodmart_product_categories_dim_upgrade >> turkishfoodmart_fact_upload
+TypeError: unsupported operand type(s) for >>: 'list' and 'list'
+[2022-10-01T15:51:17.742+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:51:17.762+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.035 seconds
+[2022-10-01T15:51:53.698+0600] {processor.py:153} INFO - Started process (PID=15096) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:51:53.699+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T15:51:53.699+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:51:53.699+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:51:53.707+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:51:53.706+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 121, in <module>
+    [mffoodmart_scrap, turkishfoodmart_scrap] >> [mffoodmart_category_dim_upgrade, mffoodmart_product_dim_upgrade] >> mffoodmart_product_categories_dim_upgrade >> mffoodmart_fact_upload >> [turkishfoodmart_category_dim_upgrade, turkishfoodmart_product_dim_upgrade] >> turkishfoodmart_product_categories_dim_upgrade >> turkishfoodmart_fact_upload
+TypeError: unsupported operand type(s) for >>: 'list' and 'list'
+[2022-10-01T15:51:53.707+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:51:53.726+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.029 seconds
+[2022-10-01T15:52:27.326+0600] {processor.py:153} INFO - Started process (PID=15132) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:52:27.327+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T15:52:27.328+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:52:27.328+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:52:27.336+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:52:27.335+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 121, in <module>
+    [mffoodmart_scrap, turkishfoodmart_scrap] >> [mffoodmart_category_dim_upgrade, mffoodmart_product_dim_upgrade] >> mffoodmart_product_categories_dim_upgrade >> mffoodmart_fact_upload >> [turkishfoodmart_category_dim_upgrade, turkishfoodmart_product_dim_upgrade] >> turkishfoodmart_product_categories_dim_upgrade >> turkishfoodmart_fact_upload
+TypeError: unsupported operand type(s) for >>: 'list' and 'list'
+[2022-10-01T15:52:27.336+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:52:27.354+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.029 seconds
+[2022-10-01T15:53:01.804+0600] {processor.py:153} INFO - Started process (PID=15168) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:53:01.805+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T15:53:01.806+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:53:01.806+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:53:01.814+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:53:01.813+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 121, in <module>
+    [mffoodmart_scrap, turkishfoodmart_scrap] >> [mffoodmart_category_dim_upgrade, mffoodmart_product_dim_upgrade] >> mffoodmart_product_categories_dim_upgrade >> mffoodmart_fact_upload >> [turkishfoodmart_category_dim_upgrade, turkishfoodmart_product_dim_upgrade] >> turkishfoodmart_product_categories_dim_upgrade >> turkishfoodmart_fact_upload
+TypeError: unsupported operand type(s) for >>: 'list' and 'list'
+[2022-10-01T15:53:01.814+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:53:01.832+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.029 seconds
+[2022-10-01T15:53:37.907+0600] {processor.py:153} INFO - Started process (PID=15204) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:53:37.908+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T15:53:37.908+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:53:37.908+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:53:37.917+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:53:37.917+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 121, in <module>
+    [mffoodmart_scrap, turkishfoodmart_scrap] >> [mffoodmart_category_dim_upgrade, mffoodmart_product_dim_upgrade] >> mffoodmart_product_categories_dim_upgrade >> mffoodmart_fact_upload >> [turkishfoodmart_category_dim_upgrade, turkishfoodmart_product_dim_upgrade] >> turkishfoodmart_product_categories_dim_upgrade >> turkishfoodmart_fact_upload
+TypeError: unsupported operand type(s) for >>: 'list' and 'list'
+[2022-10-01T15:53:37.918+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:53:37.936+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.031 seconds
+[2022-10-01T15:54:11.154+0600] {processor.py:153} INFO - Started process (PID=15240) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:54:11.155+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T15:54:11.156+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:54:11.156+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:54:11.164+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:54:11.164+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 121, in <module>
+    [mffoodmart_scrap, turkishfoodmart_scrap] >> [mffoodmart_category_dim_upgrade, mffoodmart_product_dim_upgrade] >> mffoodmart_product_categories_dim_upgrade >> mffoodmart_fact_upload >> [turkishfoodmart_category_dim_upgrade, turkishfoodmart_product_dim_upgrade] >> turkishfoodmart_product_categories_dim_upgrade >> turkishfoodmart_fact_upload
+TypeError: unsupported operand type(s) for >>: 'list' and 'list'
+[2022-10-01T15:54:11.164+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:54:11.182+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.030 seconds
+[2022-10-01T15:54:47.638+0600] {processor.py:153} INFO - Started process (PID=15276) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:54:47.639+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T15:54:47.639+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:54:47.639+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:54:47.649+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:54:47.648+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 121, in <module>
+    [mffoodmart_scrap, turkishfoodmart_scrap] >> [mffoodmart_category_dim_upgrade, mffoodmart_product_dim_upgrade] >> mffoodmart_product_categories_dim_upgrade >> mffoodmart_fact_upload >> [turkishfoodmart_category_dim_upgrade, turkishfoodmart_product_dim_upgrade] >> turkishfoodmart_product_categories_dim_upgrade >> turkishfoodmart_fact_upload
+TypeError: unsupported operand type(s) for >>: 'list' and 'list'
+[2022-10-01T15:54:47.649+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:54:47.667+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.031 seconds
+[2022-10-01T15:55:21.393+0600] {processor.py:153} INFO - Started process (PID=15312) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:55:21.394+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T15:55:21.395+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:55:21.395+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:55:21.403+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:55:21.403+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 121, in <module>
+    [mffoodmart_scrap, turkishfoodmart_scrap] >> [mffoodmart_category_dim_upgrade, mffoodmart_product_dim_upgrade] >> mffoodmart_product_categories_dim_upgrade >> mffoodmart_fact_upload >> [turkishfoodmart_category_dim_upgrade, turkishfoodmart_product_dim_upgrade] >> turkishfoodmart_product_categories_dim_upgrade >> turkishfoodmart_fact_upload
+TypeError: unsupported operand type(s) for >>: 'list' and 'list'
+[2022-10-01T15:55:21.403+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:55:21.422+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.031 seconds
+[2022-10-01T15:55:57.189+0600] {processor.py:153} INFO - Started process (PID=15375) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:55:57.190+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T15:55:57.190+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:55:57.190+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:55:57.198+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:55:57.198+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 121, in <module>
+    [mffoodmart_scrap, turkishfoodmart_scrap] >> [mffoodmart_category_dim_upgrade, mffoodmart_product_dim_upgrade] >> mffoodmart_product_categories_dim_upgrade >> mffoodmart_fact_upload >> [turkishfoodmart_category_dim_upgrade, turkishfoodmart_product_dim_upgrade] >> turkishfoodmart_product_categories_dim_upgrade >> turkishfoodmart_fact_upload
+TypeError: unsupported operand type(s) for >>: 'list' and 'list'
+[2022-10-01T15:55:57.199+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:55:57.217+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.030 seconds
+[2022-10-01T15:56:31.125+0600] {processor.py:153} INFO - Started process (PID=15411) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:56:31.126+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T15:56:31.126+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:56:31.126+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:56:31.134+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:56:31.134+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 121, in <module>
+    [mffoodmart_scrap, turkishfoodmart_scrap] >> [mffoodmart_category_dim_upgrade, mffoodmart_product_dim_upgrade] >> mffoodmart_product_categories_dim_upgrade >> mffoodmart_fact_upload >> [turkishfoodmart_category_dim_upgrade, turkishfoodmart_product_dim_upgrade] >> turkishfoodmart_product_categories_dim_upgrade >> turkishfoodmart_fact_upload
+TypeError: unsupported operand type(s) for >>: 'list' and 'list'
+[2022-10-01T15:56:31.134+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:56:31.154+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.030 seconds
+[2022-10-01T15:57:05.659+0600] {processor.py:153} INFO - Started process (PID=15462) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:57:05.662+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T15:57:05.662+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:57:05.662+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:57:05.671+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:57:05.671+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 121, in <module>
+    [mffoodmart_scrap, turkishfoodmart_scrap] >> [mffoodmart_category_dim_upgrade, mffoodmart_product_dim_upgrade] >> mffoodmart_product_categories_dim_upgrade >> mffoodmart_fact_upload >> [turkishfoodmart_category_dim_upgrade, turkishfoodmart_product_dim_upgrade] >> turkishfoodmart_product_categories_dim_upgrade >> turkishfoodmart_fact_upload
+TypeError: unsupported operand type(s) for >>: 'list' and 'list'
+[2022-10-01T15:57:05.671+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:57:05.779+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.122 seconds
+[2022-10-01T15:57:39.714+0600] {processor.py:153} INFO - Started process (PID=15573) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:57:39.716+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T15:57:39.716+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:57:39.716+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:57:39.724+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:57:39.724+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 121, in <module>
+    [mffoodmart_scrap, turkishfoodmart_scrap] >> [mffoodmart_category_dim_upgrade, mffoodmart_product_dim_upgrade] >> mffoodmart_product_categories_dim_upgrade >> mffoodmart_fact_upload >> [turkishfoodmart_category_dim_upgrade, turkishfoodmart_product_dim_upgrade] >> turkishfoodmart_product_categories_dim_upgrade >> turkishfoodmart_fact_upload
+TypeError: unsupported operand type(s) for >>: 'list' and 'list'
+[2022-10-01T15:57:39.724+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:57:39.743+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.030 seconds
+[2022-10-01T15:58:16.359+0600] {processor.py:153} INFO - Started process (PID=15669) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:58:16.360+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T15:58:16.360+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:58:16.360+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:58:16.371+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:58:16.371+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 121, in <module>
+    [mffoodmart_scrap, turkishfoodmart_scrap] >> [mffoodmart_category_dim_upgrade, mffoodmart_product_dim_upgrade] >> mffoodmart_product_categories_dim_upgrade >> mffoodmart_fact_upload
+TypeError: unsupported operand type(s) for >>: 'list' and 'list'
+[2022-10-01T15:58:16.371+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:58:16.391+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.034 seconds
+[2022-10-01T15:58:49.578+0600] {processor.py:153} INFO - Started process (PID=15750) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:58:49.579+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T15:58:49.580+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:58:49.580+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:58:49.590+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:58:49.604+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:58:49.604+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T15:58:49.615+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:58:49.615+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T15:58:49.646+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.069 seconds
+[2022-10-01T15:59:26.563+0600] {processor.py:153} INFO - Started process (PID=15906) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:59:26.564+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T15:59:26.565+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:59:26.565+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:59:26.574+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T15:59:26.584+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:59:26.584+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T15:59:26.596+0600] {logging_mixin.py:115} INFO - [2022-10-01T15:59:26.596+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T15:59:26.616+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.054 seconds
+[2022-10-01T16:00:00.494+0600] {processor.py:153} INFO - Started process (PID=16062) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:00:00.496+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:00:00.496+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:00:00.496+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:00:00.498+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:00:00.497+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 121
+    mffoodmart_scrap >> [mffoodmart_category_dim_upgrade, mffoodmart_product_dim_upgrade] >> mffoodmart_product_categories_dim_upgrade >> mffoodmart_fact_upload
+                                                                                                                                                                ^
+IndentationError: unindent does not match any outer indentation level
+[2022-10-01T16:00:00.498+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:00:00.519+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.026 seconds
+[2022-10-01T16:00:35.430+0600] {processor.py:153} INFO - Started process (PID=16143) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:00:35.431+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:00:35.431+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:00:35.431+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:00:35.433+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:00:35.433+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 121
+    mffoodmart_scrap >> [mffoodmart_category_dim_upgrade, mffoodmart_product_dim_upgrade] >> mffoodmart_product_categories_dim_upgrade >> mffoodmart_fact_upload >> turkishfoodmart_scrap >> [turkishfoodmart_category_dim_upgrade, turkishfoodmart_product_dim_upgrade] >> turkishfoodmart_product_categories_dim_upgrade >> turkishfoodmart_fact_upload
+                                                                                                                                                                                                                                                                                                                                                         ^
+IndentationError: unindent does not match any outer indentation level
+[2022-10-01T16:00:35.433+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:00:35.455+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.028 seconds
+[2022-10-01T16:01:10.779+0600] {processor.py:153} INFO - Started process (PID=16236) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:01:10.780+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:01:10.781+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:01:10.780+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:01:10.782+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:01:10.782+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 121
+    mffoodmart_scrap >> [mffoodmart_category_dim_upgrade, mffoodmart_product_dim_upgrade] >> mffoodmart_product_categories_dim_upgrade >> mffoodmart_fact_upload >> turkishfoodmart_scrap >> [turkishfoodmart_category_dim_upgrade, turkishfoodmart_product_dim_upgrade] >> turkishfoodmart_product_categories_dim_upgrade >> turkishfoodmart_fact_upload
+                                                                                                                                                                                                                                                                                                                                                         ^
+IndentationError: unindent does not match any outer indentation level
+[2022-10-01T16:01:10.782+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:01:10.801+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.024 seconds
+[2022-10-01T16:01:46.004+0600] {processor.py:153} INFO - Started process (PID=16272) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:01:46.005+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:01:46.006+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:01:46.006+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:01:46.009+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:01:46.007+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 121
+    mffoodmart_scrap >> [mffoodmart_category_dim_upgrade, mffoodmart_product_dim_upgrade] >> mffoodmart_product_categories_dim_upgrade >> mffoodmart_fact_upload >> turkishfoodmart_scrap >> [turkishfoodmart_category_dim_upgrade, turkishfoodmart_product_dim_upgrade] >> turkishfoodmart_product_categories_dim_upgrade >> turkishfoodmart_fact_upload
+                                                                                                                                                                                                                                                                                                                                                         ^
+IndentationError: unindent does not match any outer indentation level
+[2022-10-01T16:01:46.009+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:01:46.034+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.032 seconds
+[2022-10-01T16:02:19.265+0600] {processor.py:153} INFO - Started process (PID=16308) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:02:19.266+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:02:19.267+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:02:19.267+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:02:19.268+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:02:19.268+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 121
+    mffoodmart_scrap >> [mffoodmart_category_dim_upgrade, mffoodmart_product_dim_upgrade] >> mffoodmart_product_categories_dim_upgrade >> mffoodmart_fact_upload
+                                                                                                                                                                ^
+IndentationError: unindent does not match any outer indentation level
+[2022-10-01T16:02:19.269+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:02:19.287+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.023 seconds
+[2022-10-01T16:02:52.891+0600] {processor.py:153} INFO - Started process (PID=16344) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:02:52.892+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:02:52.892+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:02:52.892+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:02:52.894+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:02:52.893+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 121
+    mffoodmart_scrap >> [mffoodmart_category_dim_upgrade, mffoodmart_product_dim_upgrade] >> mffoodmart_product_categories_dim_upgrade >> mffoodmart_fact_upload
+                                                                                                                                                                ^
+IndentationError: unindent does not match any outer indentation level
+[2022-10-01T16:02:52.894+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:02:52.912+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.022 seconds
+[2022-10-01T16:03:28.403+0600] {processor.py:153} INFO - Started process (PID=16440) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:03:28.404+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:03:28.405+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:03:28.405+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:03:28.406+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:03:28.406+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 121
+    mffoodmart_scrap >> [mffoodmart_category_dim_upgrade, mffoodmart_product_dim_upgrade] >> mffoodmart_product_categories_dim_upgrade >> mffoodmart_fact_upload
+                                                                                                                                                                ^
+IndentationError: unindent does not match any outer indentation level
+[2022-10-01T16:03:28.406+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:03:28.425+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.024 seconds
+[2022-10-01T16:04:02.137+0600] {processor.py:153} INFO - Started process (PID=16581) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:04:02.138+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:04:02.138+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:04:02.138+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:04:02.141+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:04:02.140+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 121
+    mffoodmart_scrap >> [mffoodmart_category_dim_upgrade, mffoodmart_product_dim_upgrade]
+                                                                                         ^
+IndentationError: unindent does not match any outer indentation level
+[2022-10-01T16:04:02.141+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:04:02.161+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.027 seconds
+[2022-10-01T16:04:36.529+0600] {processor.py:153} INFO - Started process (PID=16737) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:04:36.530+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:04:36.530+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:04:36.530+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:04:36.539+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:04:36.618+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:04:36.618+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:04:36.629+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:04:36.629+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T16:04:36.660+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.132 seconds
+[2022-10-01T16:05:11.177+0600] {processor.py:153} INFO - Started process (PID=16848) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:05:11.177+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:05:11.178+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:05:11.178+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:05:11.184+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:05:11.195+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:05:11.194+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:05:11.205+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:05:11.205+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T16:05:11.221+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.046 seconds
+[2022-10-01T16:05:45.646+0600] {processor.py:153} INFO - Started process (PID=16884) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:05:45.646+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:05:45.647+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:05:45.647+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:05:45.653+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:05:45.662+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:05:45.662+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:05:45.672+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:05:45.672+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T16:05:45.692+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.048 seconds
+[2022-10-01T16:06:20.827+0600] {processor.py:153} INFO - Started process (PID=17007) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:06:20.830+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:06:20.830+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:06:20.830+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:06:20.837+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:06:20.848+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:06:20.848+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:06:20.862+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:06:20.862+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T16:06:20.887+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.062 seconds
+[2022-10-01T16:06:55.663+0600] {processor.py:153} INFO - Started process (PID=17105) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:06:55.664+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:06:55.665+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:06:55.665+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:06:55.666+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:06:55.666+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 121
+    cond >> [empty_task_1, empty_task_2]
+                                        ^
+IndentationError: unindent does not match any outer indentation level
+[2022-10-01T16:06:55.666+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:06:55.685+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.024 seconds
+[2022-10-01T16:07:31.383+0600] {processor.py:153} INFO - Started process (PID=17291) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:07:31.384+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:07:31.384+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:07:31.384+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:07:31.386+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:07:31.386+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 121
+    mffoodmart_scrap >> [mffoodmart_category_dim_upgrade, mffoodmart_product_dim_upgrade]
+                                                                                         ^
+IndentationError: unindent does not match any outer indentation level
+[2022-10-01T16:07:31.386+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:07:31.405+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.024 seconds
+[2022-10-01T16:08:05.771+0600] {processor.py:153} INFO - Started process (PID=17417) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:08:05.772+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:08:05.773+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:08:05.773+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:08:05.774+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:08:05.774+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 121
+    mffoodmart_scrap >> [mffoodmart_category_dim_upgrade, mffoodmart_product_dim_upgrade]
+                                                                                         ^
+IndentationError: unindent does not match any outer indentation level
+[2022-10-01T16:08:05.775+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:08:05.794+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.025 seconds
+[2022-10-01T16:08:38.535+0600] {processor.py:153} INFO - Started process (PID=17519) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:08:38.536+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:08:38.537+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:08:38.537+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:08:38.544+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:08:38.544+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 120, in <module>
+    [training_model_A, training_model_B, training_model_C] >> choose_best_model >> [accurate, inaccurate]
+NameError: name 'training_model_A' is not defined
+[2022-10-01T16:08:38.545+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:08:38.563+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.029 seconds
+[2022-10-01T16:09:14.324+0600] {processor.py:153} INFO - Started process (PID=17555) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:09:14.325+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:09:14.326+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:09:14.326+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:09:14.328+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:09:14.327+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/Airflow/venv2/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py", line 120
+    mffoodmart_scrap >> [mffoodmart_category_dim_upgrade, mffoodmart_product_dim_upgrade] >> mffoodmart_product_categories_dim_upgrade >>
+                                                                                                                                         ^
+SyntaxError: invalid syntax
+[2022-10-01T16:09:14.328+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:09:14.346+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.023 seconds
+[2022-10-01T16:09:48.686+0600] {processor.py:153} INFO - Started process (PID=17711) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:09:48.687+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:09:48.688+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:09:48.687+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:09:48.694+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:09:48.718+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:09:48.718+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:09:48.727+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:09:48.727+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T16:09:48.754+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.070 seconds
+[2022-10-01T16:10:24.405+0600] {processor.py:153} INFO - Started process (PID=17807) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:10:24.406+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:10:24.407+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:10:24.406+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:10:24.414+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:10:24.422+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:10:24.422+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:10:24.432+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:10:24.432+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T16:10:24.449+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.045 seconds
+[2022-10-01T16:10:59.172+0600] {processor.py:153} INFO - Started process (PID=17872) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:10:59.173+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:10:59.173+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:10:59.173+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:10:59.179+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:10:59.188+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:10:59.188+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:10:59.199+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:10:59.199+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T16:10:59.215+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.044 seconds
+[2022-10-01T16:11:32.882+0600] {processor.py:153} INFO - Started process (PID=17908) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:11:32.883+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:11:32.884+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:11:32.884+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:11:32.895+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:11:32.911+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:11:32.910+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:11:32.925+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:11:32.925+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T16:11:32.943+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.064 seconds
+[2022-10-01T16:12:09.857+0600] {processor.py:153} INFO - Started process (PID=17944) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:12:09.858+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:12:09.858+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:12:09.858+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:12:09.864+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:12:09.873+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:12:09.873+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:12:09.883+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:12:09.883+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T16:12:09.898+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.043 seconds
+[2022-10-01T16:12:43.905+0600] {processor.py:153} INFO - Started process (PID=17980) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:12:43.906+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:12:43.907+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:12:43.907+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:12:43.913+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:12:43.923+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:12:43.922+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:12:43.933+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:12:43.932+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T16:12:43.948+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.044 seconds
+[2022-10-01T16:13:19.909+0600] {processor.py:153} INFO - Started process (PID=18016) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:13:19.910+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:13:19.910+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:13:19.910+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:13:19.916+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:13:19.925+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:13:19.925+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:13:19.935+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:13:19.935+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T16:13:19.951+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.043 seconds
+[2022-10-01T16:13:52.519+0600] {processor.py:153} INFO - Started process (PID=18052) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:13:52.520+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:13:52.520+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:13:52.520+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:13:52.526+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:13:52.535+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:13:52.535+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:13:52.545+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:13:52.545+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T16:13:52.560+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.043 seconds
+[2022-10-01T16:14:26.144+0600] {processor.py:153} INFO - Started process (PID=18088) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:14:26.145+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:14:26.145+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:14:26.145+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:14:26.152+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:14:26.160+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:14:26.160+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:14:26.170+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:14:26.170+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T16:14:26.186+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.043 seconds
+[2022-10-01T16:15:02.158+0600] {processor.py:153} INFO - Started process (PID=18124) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:15:02.160+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:15:02.160+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:15:02.160+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:15:02.166+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:15:02.176+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:15:02.175+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:15:02.186+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:15:02.185+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T16:15:02.201+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.044 seconds
+[2022-10-01T16:15:37.347+0600] {processor.py:153} INFO - Started process (PID=18160) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:15:37.348+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:15:37.349+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:15:37.349+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:15:37.355+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:15:37.367+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:15:37.367+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:15:37.378+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:15:37.377+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T16:15:37.393+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.047 seconds
+[2022-10-01T16:16:17.620+0600] {processor.py:153} INFO - Started process (PID=18224) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:16:17.629+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:16:17.630+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:16:17.630+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:16:17.652+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:16:17.712+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:16:17.711+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:16:17.790+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:16:17.790+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T16:16:17.842+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.226 seconds
+[2022-10-01T16:17:00.578+0600] {processor.py:153} INFO - Started process (PID=18262) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:17:00.587+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:17:00.588+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:17:00.588+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:17:00.610+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:17:00.670+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:17:00.669+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:17:00.736+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:17:00.736+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T16:17:00.774+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.200 seconds
+[2022-10-01T16:17:42.574+0600] {processor.py:153} INFO - Started process (PID=18298) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:17:42.583+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:17:42.584+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:17:42.584+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:17:42.602+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:17:42.624+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:17:42.623+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:17:42.660+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:17:42.658+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T16:17:42.702+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.132 seconds
+[2022-10-01T16:18:26.356+0600] {processor.py:153} INFO - Started process (PID=18334) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:18:26.357+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:18:26.358+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:18:26.358+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:18:26.379+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:18:26.426+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:18:26.426+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:18:26.504+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:18:26.503+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T16:18:26.552+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.199 seconds
+[2022-10-01T16:19:10.473+0600] {processor.py:153} INFO - Started process (PID=18370) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:19:10.476+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:19:10.476+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:19:10.476+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:19:10.499+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:19:10.532+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:19:10.532+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:19:10.571+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:19:10.571+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T16:19:10.615+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.151 seconds
+[2022-10-01T16:19:54.545+0600] {processor.py:153} INFO - Started process (PID=18406) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:19:54.547+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:19:54.548+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:19:54.548+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:19:54.579+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:19:54.639+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:19:54.639+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:19:54.703+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:19:54.703+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T16:19:54.752+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.211 seconds
+[2022-10-01T16:20:38.677+0600] {processor.py:153} INFO - Started process (PID=18442) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:20:38.687+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:20:38.688+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:20:38.688+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:20:38.719+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:20:38.771+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:20:38.770+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:20:38.846+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:20:38.846+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T16:20:38.897+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.223 seconds
+[2022-10-01T16:21:21.897+0600] {processor.py:153} INFO - Started process (PID=18507) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:21:21.899+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:21:21.900+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:21:21.900+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:21:21.930+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:21:21.992+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:21:21.992+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:21:22.071+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:21:22.071+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T16:21:22.120+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.226 seconds
+[2022-10-01T16:22:05.705+0600] {processor.py:153} INFO - Started process (PID=18543) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:22:05.712+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:22:05.713+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:22:05.712+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:22:05.730+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:22:05.757+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:22:05.757+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:22:05.792+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:22:05.792+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T16:22:05.831+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.130 seconds
+[2022-10-01T16:22:48.151+0600] {processor.py:153} INFO - Started process (PID=18579) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:22:48.154+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:22:48.154+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:22:48.154+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:22:48.184+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:22:48.233+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:22:48.233+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:22:48.272+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:22:48.272+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T16:22:48.324+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.176 seconds
+[2022-10-01T16:23:32.227+0600] {processor.py:153} INFO - Started process (PID=18615) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:23:32.229+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:23:32.230+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:23:32.230+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:23:32.261+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:23:32.325+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:23:32.325+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:23:32.404+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:23:32.403+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T16:23:32.466+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.243 seconds
+[2022-10-01T16:24:14.995+0600] {processor.py:153} INFO - Started process (PID=18651) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:24:14.997+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:24:14.998+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:24:14.998+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:24:15.029+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:24:15.093+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:24:15.092+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:24:15.157+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:24:15.157+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T16:24:15.220+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.229 seconds
+[2022-10-01T16:24:56.977+0600] {processor.py:153} INFO - Started process (PID=18687) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:24:56.987+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:24:56.988+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:24:56.988+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:24:57.019+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:24:57.071+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:24:57.071+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:24:57.150+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:24:57.150+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T16:24:57.209+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.235 seconds
+[2022-10-01T16:25:39.358+0600] {processor.py:153} INFO - Started process (PID=18723) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:25:39.360+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:25:39.360+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:25:39.360+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:25:39.392+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:25:39.455+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:25:39.455+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:25:39.534+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:25:39.534+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T16:25:39.586+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.232 seconds
+[2022-10-01T16:26:21.180+0600] {processor.py:153} INFO - Started process (PID=18788) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:26:21.182+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:26:21.183+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:26:21.183+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:26:21.214+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:26:21.275+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:26:21.275+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:26:21.320+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:26:21.320+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T16:26:21.371+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.194 seconds
+[2022-10-01T16:27:06.106+0600] {processor.py:153} INFO - Started process (PID=18824) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:27:06.108+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:27:06.109+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:27:06.108+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:27:06.150+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:27:06.214+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:27:06.214+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:27:06.279+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:27:06.279+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T16:27:06.333+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.230 seconds
+[2022-10-01T16:27:47.719+0600] {processor.py:153} INFO - Started process (PID=18860) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:27:47.721+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:27:47.721+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:27:47.721+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:27:47.752+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:27:47.814+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:27:47.814+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:27:47.893+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:27:47.892+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T16:27:47.948+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.232 seconds
+[2022-10-01T16:28:33.247+0600] {processor.py:153} INFO - Started process (PID=18896) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:28:33.249+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:28:33.250+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:28:33.250+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:28:33.272+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:28:33.307+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:28:33.307+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:28:33.350+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:28:33.350+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T16:28:33.390+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.149 seconds
+[2022-10-01T16:29:14.771+0600] {processor.py:153} INFO - Started process (PID=18934) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:29:14.772+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:29:14.773+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:29:14.773+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:29:14.780+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:29:14.790+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:29:14.790+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:29:14.801+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:29:14.800+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T16:29:14.818+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.049 seconds
+[2022-10-01T16:29:49.338+0600] {processor.py:153} INFO - Started process (PID=18970) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:29:49.339+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:29:49.340+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:29:49.340+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:29:49.348+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:29:49.373+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:29:49.373+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:29:49.383+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:29:49.382+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T16:29:49.400+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.063 seconds
+[2022-10-01T16:30:25.037+0600] {processor.py:153} INFO - Started process (PID=19007) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:30:25.038+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:30:25.039+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:30:25.039+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:30:25.047+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:30:25.072+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:30:25.072+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:30:25.082+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:30:25.082+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T16:30:25.108+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.072 seconds
+[2022-10-01T16:30:58.948+0600] {processor.py:153} INFO - Started process (PID=19072) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:30:58.949+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:30:58.950+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:30:58.950+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:30:58.956+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:30:58.965+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:30:58.965+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:30:58.975+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:30:58.975+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T16:30:58.999+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.053 seconds
+[2022-10-01T16:31:34.850+0600] {processor.py:153} INFO - Started process (PID=19168) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:31:34.851+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:31:34.852+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:31:34.852+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:31:34.858+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:31:34.870+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:31:34.870+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:31:34.882+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:31:34.882+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T16:31:34.908+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.060 seconds
+[2022-10-01T16:32:09.722+0600] {processor.py:153} INFO - Started process (PID=19294) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:32:09.723+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:32:09.723+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:32:09.723+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:32:09.730+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:32:09.739+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:32:09.738+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:32:09.749+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:32:09.749+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T16:32:09.773+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.053 seconds
+[2022-10-01T16:32:44.733+0600] {processor.py:153} INFO - Started process (PID=19387) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:32:44.734+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:32:44.735+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:32:44.735+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:32:44.741+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:32:44.750+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:32:44.750+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:32:44.761+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:32:44.761+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T16:32:44.787+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.056 seconds
+[2022-10-01T16:35:21.845+0600] {processor.py:153} INFO - Started process (PID=20262) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:35:21.847+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:35:21.848+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:35:21.848+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:35:21.864+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:35:21.892+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:35:21.892+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:35:21.914+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:35:21.913+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T16:35:21.948+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.109 seconds
+[2022-10-01T16:35:36.505+0600] {processor.py:153} INFO - Started process (PID=20349) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:35:36.506+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:35:36.506+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:35:36.506+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:35:36.514+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:35:36.525+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:35:36.525+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:35:36.536+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:35:36.536+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T16:35:36.561+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.058 seconds
+[2022-10-01T16:38:11.910+0600] {processor.py:153} INFO - Started process (PID=21663) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:38:11.911+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:38:11.911+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:38:11.911+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:38:11.918+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:38:11.927+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:38:11.927+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:38:11.941+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:38:11.941+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-10-01T00:00:00+00:00, run_after=2022-10-02T00:00:00+00:00
+[2022-10-01T16:38:11.958+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.050 seconds
+[2022-10-01T16:38:16.425+0600] {processor.py:153} INFO - Started process (PID=21706) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:38:16.426+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:38:16.427+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:38:16.427+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:38:16.433+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:38:16.444+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:38:16.443+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:38:16.454+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:38:16.454+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-10-01T00:00:00+00:00, run_after=2022-10-02T00:00:00+00:00
+[2022-10-01T16:38:16.470+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.047 seconds
+[2022-10-01T16:38:44.871+0600] {processor.py:153} INFO - Started process (PID=21837) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:38:44.872+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:38:44.872+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:38:44.872+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:38:44.881+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:38:44.890+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:38:44.890+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:38:44.901+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:38:44.901+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-10-01T00:00:00+00:00, run_after=2022-10-02T00:00:00+00:00
+[2022-10-01T16:38:44.916+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.047 seconds
+[2022-10-01T16:38:49.362+0600] {processor.py:153} INFO - Started process (PID=21847) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:38:49.363+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:38:49.364+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:38:49.364+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:38:49.372+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:38:49.383+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:38:49.383+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:38:49.395+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:38:49.395+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-10-01T00:00:00+00:00, run_after=2022-10-02T00:00:00+00:00
+[2022-10-01T16:38:49.411+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.050 seconds
+[2022-10-01T16:39:20.846+0600] {processor.py:153} INFO - Started process (PID=21910) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:39:20.848+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:39:20.848+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:39:20.848+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:39:20.857+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:39:20.867+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:39:20.867+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:39:20.878+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:39:20.878+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-10-01T00:00:00+00:00, run_after=2022-10-02T00:00:00+00:00
+[2022-10-01T16:39:20.895+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.051 seconds
+[2022-10-01T16:39:25.363+0600] {processor.py:153} INFO - Started process (PID=21919) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:39:25.364+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:39:25.364+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:39:25.364+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:39:25.372+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:39:25.381+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:39:25.381+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:39:25.392+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:39:25.391+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-10-01T00:00:00+00:00, run_after=2022-10-02T00:00:00+00:00
+[2022-10-01T16:39:25.408+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.046 seconds
+[2022-10-01T16:39:54.135+0600] {processor.py:153} INFO - Started process (PID=21987) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:39:54.136+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:39:54.137+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:39:54.137+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:39:54.145+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:39:54.154+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:39:54.153+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:39:54.166+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:39:54.166+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-10-01T00:00:00+00:00, run_after=2022-10-02T00:00:00+00:00
+[2022-10-01T16:39:54.181+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.048 seconds
+[2022-10-01T16:39:58.946+0600] {processor.py:153} INFO - Started process (PID=21998) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:39:58.947+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:39:58.948+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:39:58.948+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:39:58.955+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:39:58.964+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:39:58.964+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:39:58.974+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:39:58.974+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-10-01T00:00:00+00:00, run_after=2022-10-02T00:00:00+00:00
+[2022-10-01T16:39:58.990+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.045 seconds
+[2022-10-01T16:40:30.368+0600] {processor.py:153} INFO - Started process (PID=22065) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:40:30.369+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:40:30.369+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:40:30.369+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:40:30.380+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:40:30.391+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:40:30.391+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:40:30.405+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:40:30.405+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-10-01T00:00:00+00:00, run_after=2022-10-02T00:00:00+00:00
+[2022-10-01T16:40:30.423+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.059 seconds
+[2022-10-01T16:40:35.550+0600] {processor.py:153} INFO - Started process (PID=22076) to work on /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:40:35.551+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py for tasks to queue
+[2022-10-01T16:40:35.552+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:40:35.551+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:40:35.560+0600] {processor.py:650} INFO - DAG(s) dict_keys(['scaping_task']) retrieved from /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py
+[2022-10-01T16:40:35.569+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:40:35.569+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-10-01T16:40:35.579+0600] {logging_mixin.py:115} INFO - [2022-10-01T16:40:35.579+0600] {dag.py:2977} INFO - Setting next_dagrun for scaping_task to 2022-10-01T00:00:00+00:00, run_after=2022-10-02T00:00:00+00:00
+[2022-10-01T16:40:35.595+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/Airflow/workdir/dags/mffoodmart_scraping.py took 0.046 seconds
